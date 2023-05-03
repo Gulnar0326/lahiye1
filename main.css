@@ -1,0 +1,206 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.sarioglang{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.sarioglangsag{
+    height: 100%;
+    width: 50%;
+    background-image: url(./sekiller/sarioglan.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.sarioglangsol{
+    height: 100%;
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+
+}
+.Sari2{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 40px;
+}
+.Sari3{
+    font-size: 26px;
+    color: grey;
+    font-weight: lighter;
+}
+.Sari4{height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:rgb(97, 97, 190);
+    color: white;
+    font-size: 16px;
+    border-color: rgb(97, 97, 190);
+    border-style: none;
+   
+}
+.Sari4:hover{
+    color: rgb(97, 97, 190) ;
+    background-color: white
+     ;
+}
+.Sari1{
+    display: flex;
+   padding-top: 30px;
+   gap: 50px;
+   padding-left: 10px;
+   
+}
+.yumrukisig{
+    height: 100px;
+    width: 100px;
+    background-image: url(./sekiller/yumrukisi.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+.yumrukisininyazisig{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+
+
+
+.duvaroglang{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .duvaroglangsag{
+        height: 100%;
+        width: 50%;
+        background-image: url(./sekiller/duvar.jpg);
+        background-size: cover;
+        background-position: center;
+      
+    }
+    .duvaroglangsol{
+        height: 100%;
+        width: 50%;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    
+    
+    }
+    .duvar2{
+        font-size: 60px;
+        font-weight: bolder;
+        color: black;
+        padding-left: 40px;
+    }
+    .duvar3{
+        font-size: 26px;
+        color: grey;
+        font-weight: lighter;
+    }
+    .duvar4{height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        background-color:rgb(97, 97, 190);
+        color: white;
+        font-size: 16px;
+        border-color: rgb(97, 97, 190);
+        border-style: none;
+       
+    }
+    .duvar4:hover{
+        color: rgb(97, 97, 190) ;
+        background-color: white
+         ;
+    }
+    .duvar1{
+        display: flex;
+       padding-top: 30px;
+       gap: 50px;
+       padding-left: 10px;
+       
+    }
+    .yelkenyumrukisig{
+        height: 100px;
+        width: 100px;
+        background-image: url(./sekiller/yumrukisi3cusu.jpg);
+        background-size: 100% 100%;
+        border-radius: 50%;
+        padding-left: 20px;
+    }
+    .duvaryumrukisininyazisig{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        color: grey;
+    }
+    .yelkenoglangsag{
+        height: 100%;
+        width: 50%;
+        background-image: url(./sekiller/yelkenlioglan.jpg);
+        background-size: cover;
+        background-position: center;}
+        
+
+
+        .yolgsag{
+            height: 100%;
+            width: 50%;
+            background-image: url(./sekiller/yol.jpg);
+            background-size: cover;
+            background-position: center;}
+
+            .yolyumrukisig{
+                height: 100px;
+                width: 100px;
+                background-image: url(./sekiller/yumrukisi.jpg);
+                background-size: 100% 100%;
+                border-radius: 50%;
+                padding-left: 20px;
+            }
+
+            .sariqizgsag{
+                height: 100%;
+                width: 50%;
+                background-image: url(./sekiller/saeipapaqliqiz.jpg);
+                background-size: cover;
+                background-position: center;}
+    
+                .sariqizyumrukisig{
+                    height: 100px;
+                    width: 100px;
+                    background-image: url(./sekiller/duvaryumrukisi.jpg);
+                    background-size: 100% 100%;
+                    border-radius: 50%;
+                    padding-left: 20px;
+                }
+                .cingsag{
+                    height: 100%;
+                    width: 50%;
+                    background-image: url(./sekiller/cin.jpg);
+                    background-size: cover;
+                    background-position: center;}
+        
+                    .cinyumrukisig{
+                        height: 100px;
+                        width: 100px;
+                        background-image: url(./sekiller/duvaryumrukisi.jpg);
+                        background-size: 100% 100%;
+                        border-radius: 50%;
+                        padding-left: 20px;
+                    }
