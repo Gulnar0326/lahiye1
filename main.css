@@ -541,3 +541,293 @@ justify-content: space-between;
                         border-radius: 50%;
                         padding-left: 20px;
                     }
+
+
+
+                    /*Nermin*/
+                    .imgn1{
+                        background-image: url(./sekiller/image_11.jpg);
+                        width: 400px;
+                        height: 400px;
+                        border-radius: 50%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        box-sizing: border-box;
+                    }
+                    .person1{
+                        background-image: url(./sekiller/person_2.jpg);
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        box-sizing: border-box;
+                        position: absolute;
+                    }
+                    .person1p1{
+                        position: relative;
+                        margin-left: 120px;
+                        color: #fff;
+                        font-size: 16px;
+                        line-height: 1;
+                    }
+                    .person1p2{
+                        position: relative;
+                        margin-left: 120px;
+                        color: #ffffff80;
+                        line-height: 1.5;
+                    }
+                    .black{
+                        display: flex;
+                        justify-content: space-between;
+                        position: absolute;
+                        width: 100%;
+                        height: 120vh;
+                        background-color: black;
+                    }
+                    .sagn1{
+                        width: 50%;
+                        position: relative;
+                        margin-top: 80px;
+                        width: 100%;
+                        height: 100vh;
+                        background-color: black;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .soln1{
+                        width: 50%;
+                        margin-top: 80px;
+                        margin-left: 20px;
+                        position: relative;
+                        width: 100%;
+                        height: 100vh;
+                        background-color: black;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                    .boyuk{
+                        position: relative;
+                        display: flex;
+                        margin-left: 90px;
+                        margin-top: 50px;
+                    }
+                    .boyuk a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 30px;
+                        line-height: 1.5;
+                        transition:  all ease;
+                        cursor: pointer;
+                        margin-top: 60px;
+                        text-align: justify;
+                    }
+                    .p1{
+                        color: #ffffff80;
+                        font-family: "Poppins", Arial, sans-serif;
+                        font-size: 18px;
+                        line-height: 1.8;
+                        font-weight: 400;
+                        text-align: left;
+                        box-sizing: border-box;
+                    }
+                    .readicon{
+                        background: #69779b;
+                        border: 1px solid #69779b;
+                        color: #fff;
+                        border-radius: 30px;
+                        padding: 15px 15px;
+                        box-sizing: border-box;
+                    }
+                    .readicon:hover{
+                        transition: 1s ;
+                        cursor: pointer;
+                        background-color: black;
+                    }
+                    .icon{
+                        box-sizing: border-box;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                    .read{
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: #fff;
+                        line-height: normal;
+                    }
+                    .imgn2{
+                        background-image: url(./sekiller/image_12.jpg);
+                        width: 50%;
+                        height: 100vh;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        position: relative;
+                        margin-top: 680px;
+                        background-size: cover;
+                        box-sizing: border-box;
+                    }
+                    .sagn2{
+                        width: 50%;
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        position: absolute;
+                        margin-top: 1400px;
+                        margin-left: 52%;
+                    }
+                    .person2{
+                        background-image: url(./sekiller/person_3.jpg);
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        box-sizing: border-box;
+                    }
+                    .s2,.s3{
+                        width: 100%;
+                        height: 100vh;
+                        display: flex;
+                        position: relative;
+                        align-items: center;
+                        box-sizing: border-box;
+                        flex-wrap: wrap;
+                        position: absolute;
+                    }
+                    .person2p1{
+                        position: relative;
+                        margin-left: 120px;
+                        color: #000000B3;
+                        font-size: 16px;
+                        line-height: 1;
+                    }
+                    .person2p2{
+                        position: relative;
+                        margin-left: 120px;
+                        color: #00000080;
+                        line-height: 1.5;
+                    }
+                    .boyuk1{
+                        position: relative;
+                        display: flex;
+                        margin-left: 90px;
+                        margin-top: 30px;
+                    }
+                    .boyuk1 a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 30px;
+                        line-height: 1.5;
+                        transition:  all ease;
+                        cursor: pointer;
+                        margin-top: 60px;
+                        text-align: justify;
+                    }
+                    .p11{
+                        color: #00000080;
+                        font-family: "Poppins", Arial, sans-serif;
+                        font-size: 18px;
+                        line-height: 1.8;
+                        font-weight: 400;
+                        text-align: left;
+                        box-sizing: border-box;
+                    }
+                    .s3{
+                        width: 100%;
+                        height: 120vh;
+                        display: flex;
+                        position: relative;
+                        align-items: center;
+                        box-sizing: border-box;
+                        flex-wrap: wrap;
+                        position: absolute;
+                        margin-top: 90%;
+                        background-color: #212121;
+                    }
+                    .son {
+                        width: 15%;
+                        height: 40vh;
+                        color: #ffffffb3;
+                        background: #212121 ;
+                        font-family: "Poppins", Arial, sans-serif;
+                        font-size: 18px;
+                        line-height: 1.8;
+                        font-weight: 400;
+                        box-sizing: border-box;
+                        margin-bottom: 20%;
+                        margin-left: 60px;
+                    }
+                    .son2{
+                        width: 30%;
+                        height: 40vh;
+                        color: #ffffffb3;
+                        background: #212121 ;
+                        font-family: "Poppins", Arial, sans-serif;
+                        font-size: 18px;
+                        line-height: 1.8;
+                        font-weight: 400;
+                        box-sizing: border-box;
+                        margin-bottom: 20%;
+                        margin-left: 60px;
+                    }
+                    .son h3{
+                        color: white;
+                    }
+                    .son a{
+                        height: 60px;
+                        width: 60px;
+                        display: block;
+                        float: left;
+                        border-radius: 50%;
+                        position: relative;
+                        color: rgba(255, 255, 255, 0);
+                        transition: .3s all ease;
+                        text-decoration: none;
+                        background: rgba(255, 255, 255, 0.05);
+                        border-radius: 30px;
+                        box-sizing: border-box;
+                        margin-top: 20px;
+                    }
+                    .icontfi{
+                        color: #fff;
+                        position: absolute;
+                        font-size: 26px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-family: 'icomoon' !important;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                    }
+                    .even{
+                        color: #ffffffb3;
+                        background: #212121 ;
+                        font-family: "Poppins", Arial, sans-serif;
+                        font-size: 18px;
+                        line-height: 1.8;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        width: 100%;
+                        height: 18vh;
+                        text-decoration: none;
+                    }
+                    .imgeven1{
+                        background-image: url(./sekiller/image_1.jpg);
+                        width: 70px;
+                        height: 70px;
+                        border: 1px;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        box-sizing: border-box;
+                    }
