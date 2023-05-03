@@ -2,6 +2,343 @@
 padding: 0;
 box-sizing: border-box;
 }
+.section2 {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+}
+
+
+
+.texxt {
+    letter-spacing: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bigtext {
+    font-size: 21rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(./imgs/bg_1.jpg.webp);
+    background-position: 15%;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+@media only screen and (min-width: 500px) {
+    .bigtext {
+        font-size: 10rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .bigtext {
+        font-size: 11rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .bigtext {
+        font-size: 14rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .bigtext {
+        font-size: 21rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hi {
+        display: none;
+    }
+}
+
+
+agilli ol ramil .sectiondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.smalltext {
+    color: white;
+    width: 100%;
+    padding: 0px 25px;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.uk {
+    position: relative;
+    bottom: 70px;
+    text-align: end;
+}
+
+.mag {
+    position: relative;
+    top: 70px;
+}
+
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    width: 74vw;
+}
+
+.headertext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.fa-bars-staggered {
+    font-size: 30px;
+    color: white;
+}
+
+.fa-bars-staggered:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: 0.6s linear;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.secondpagediv {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+
+}
+
+.teh {
+    animation: animate 2.4s infinite;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    text-align: center;
+}
+
+@keyframes animate {
+    0% {
+        color: #7c797c;
+    }
+
+    18% {
+        color: #1c23a4;
+    }
+
+    20% {
+        color: #00ffea;
+        text-shadow: 0 0 7px #79ff51, 0 0 20px #f7a3f0;
+    }
+
+    30% {
+        color: #52265a;
+        text-shadow: none;
+    }
+
+    35% {
+        color: #22cad6;
+        text-shadow: 0 0 7px #ffffff, 0 0 20px #ffffff;
+
+    }
+
+    70% {
+        color: #e6dddd;
+        text-shadow: none;
+    }
+
+    85% {
+        color: #eeb8eb;
+        text-shadow: 0 0 7px #f86fff, 0 0 20px #e9e9e9;
+    }
+
+    90% {
+        color: #ddb0b0;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #d6a9d1;
+        text-shadow: 0 0 7px #ffacfc, 0 0 20px #4e125d;
+    }
+
+}
+
+.siyahi {
+    color: white;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.listtext {
+    color: white;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.girlimg {
+    width: 40%;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/erase/images/image_1.jpg.webp);
+}
+
+.secondsectiontext {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.yumrusekil {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.aa {
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    align-items: center;
+    height: inherit;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    height: 300px;
+    text-align: left;
+    width: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .secondsectiontext {
+        display: none;
+    }
+}
+
+
+
+
+.fashion {
+    font-size: 14px;
+    color: gray;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+
+
+.dd {
+    margin-bottom: 110px;
+    width: 70%;
+}
+
+.h11 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Acme', sans-serif;
+    text-align: left;
+}
+
+.lorem1 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.readme {
+    border: 1px;
+    margin-top: 30px;
+    background-color: #69779B;
+    height: 35px;
+    width: 130px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    border-color: #69779B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.readme:hover {
+    color: #69779B;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.girlimg2 {
+    width: 40%;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/erase/images/image_2.jpg.webp);
+}
+.salam{ color: aqua;}
+
+.yumru2{width: 400px; border-radius: 50%;}
+
+.secondsection2{ background-color: #212121;  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+
+    .jamie{color: white;}
+    .h12{ color: white;}
+    .readme2:hover{background-color: transparent;}
+
+
 .sarioglang{
 height: 100vh;
 width: 100%;
